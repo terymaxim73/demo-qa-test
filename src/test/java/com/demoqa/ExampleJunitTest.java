@@ -10,9 +10,10 @@ public class ExampleJunitTest {
     static void configure() {
         System.out.println("this is the  @BeforeAll");
     }
+
     @AfterAll
     void tearDown() {
-        System.out.println("this is the  @AfterAll);
+        System.out.println("this is the  @AfterAll");
     }
 
     @BeforeEach
